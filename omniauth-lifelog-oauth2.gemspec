@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'lifelog_oauth2/version'
+require 'omniauth-lifelog-oauth2/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lifelog_oauth2"
+  spec.name          = "omniauth-lifelog-oauth2"
   spec.version       = OmniAuth::LifelogOauth2::VERSION
   spec.authors       = ["Takuzi Santo"]
   spec.email         = ["takuzi.santo@ctc-g.co.jp"]
 
-  spec.summary       = %q{Sony Lifelog Web API OAuth2.}
-  spec.description   = %q{Sony Lifelog Web API OAuth2.}
+  spec.summary       = %q{OmniAuth Oauth2 strategy for Sony LifeLog.}
+  spec.description   = %q{OmniAuth Oauth2 strategy for Sony LifeLog.}
   spec.homepage      = ""
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
